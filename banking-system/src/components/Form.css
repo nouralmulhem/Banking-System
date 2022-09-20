@@ -1,0 +1,93 @@
+
+
+.Form {
+width: 350px;
+    height: 400px;
+    box-shadow: 0px 0px 6px #9b9b9b;
+    background-color: white;
+text-align: center;
+justify-content: center;
+border-radius: 5px;
+}
+
+.Form .recycle-bin{
+position: relative;
+bottom: 0;
+width: 50px;
+height:50px;
+border-radius: 30px;
+    background-color: #d9d9d9;
+    box-shadow: 0px 1px 3px 0px #6a6a6a;
+/* top: 100%; */
+left: 50%;
+transform: translate(-50%,0);
+
+}
+
+.Special {
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 50px;
+
+}
+
+.Special {
+    text-decoration: none;
+color: #6a6a6a;
+
+}
+.Special:hover{
+
+color: #046CB5;
+cursor: pointer;
+background-color: rgb(245, 245, 245)
+
+}
+
+.recycle-bin {
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 25px;
+}
+
+.myForm {
+display: flex;
+justify-content: center;
+margin-bottom: 10px;
+}
+
+.myForm * {
+margin-left: 5px;
+margin-right: 5px;
+}
+
+.myForm select {
+outline: none;
+border: none;
+background-color: #eee;
+    box-shadow: 0px 1px 3px #b1b1b1;
+    height: 30px;
+    border-radius: 5px;
+    width: 220px;
+text-indent: 5px;
+
+}
+
+.myForm input[type="submit"]{
+border-radius: 5px;
+box-shadow: 0px 1px 3px #b1b1b1;
+border: none;
+background-color: #009c6d;
+color: white;
+}
+
+.myForm input[type="submit"]:hover{
+    transform: translate(0,-1px);
+cursor: pointer;
+}
+
+strong {
+color: #007552;
+}

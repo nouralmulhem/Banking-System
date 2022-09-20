@@ -1,0 +1,14 @@
+.footer {
+    width: 100%;
+    height: 22px;
+    position: fixed;
+    bottom: 0;
+    background-image: linear-gradient(#009d6e,#00b57f,#009d6e);
+}
+
+.footer p {
+color: white;
+margin: 0;
+height: 20px;
+align-items: center;
+}
