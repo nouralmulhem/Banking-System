@@ -1,5 +1,7 @@
 # Banking-System
 
+a basic banking system developed under the supervision of The Sparks Foundation (TSF)
+
 ### You can try the web app through: 
 https://banking-system-4cbcc.web.app/
 
